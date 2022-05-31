@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+    max-width:100%;
+    min-height:600px;
+    background-color: rgb(215, 228, 245);
+    display:flex;
+     justify-content:center;
+    
+    
+}
+.box{
+    width:300px;
+    height:460px;
+    margin:auto;
+    border-radius: 15px;
+    background-color: white;
+}
+.qr_code{
+    width:275px;
+    height:260px;
+    background-image: url("./images/image-qr-code.png");
+    background-size: cover;
+    margin:auto;
+    margin-top:11px;
+    border-radius:15px;
+
+}
+.scan{
+    text-align: center;
+    width:260px;
+    height:160px;
+    margin:auto;
+}
+.scan > h3{
+    font-family:cursive;
+    color:rgb(61, 57, 57);
+
+}
+.scan > p{
+    font-family:cursive;
+    line-height: 17px;
+    color:grey;
+}
+    
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
